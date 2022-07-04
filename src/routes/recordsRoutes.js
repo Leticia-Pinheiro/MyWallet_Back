@@ -5,7 +5,6 @@ import tokenValidateMiddleware from "../middlewares/tokenValidateMiddleware.js"
 
 const router = Router()
 
-// router.use(tokenValidateMiddleware)
 router.get("/records", tokenValidateMiddleware ,getRecords)
 router.post("/record", recordSchemaValidateMiddleware ,postRecord)
 
