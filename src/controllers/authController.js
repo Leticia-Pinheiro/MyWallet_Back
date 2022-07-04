@@ -2,6 +2,10 @@ import bcrypt from "bcrypt"
 import { v4 as uuid } from "uuid"
 import { db } from "../databases/mongo.js"
 
+
+
+
+
 export async function cadastrar(req, res){
     
     try{

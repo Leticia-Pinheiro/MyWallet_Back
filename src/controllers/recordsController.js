@@ -1,5 +1,8 @@
 import { db , objectId } from "../databases/mongo.js"
 
+
+
+
 export async function getRecords(req, res){    
     const session = res.locals.session;
 
